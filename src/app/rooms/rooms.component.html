@@ -1,0 +1,7 @@
+<p>rooms works!</p>
+<p>This is count {{ count }}</p>
+<div [hidden]="display">
+  <div [innerText]="name"></div>
+</div>
+<div *ngIf="display == true">Room2</div>
+<button (click)="toggle()">Hidden</button>
